@@ -2,15 +2,23 @@
   "name": "backend",
   "version": "1.0.0",
   "description": "",
+  "keywords": [],
+  "homepage": "https://github.com/danny-oko/back-end-stuffs#readme",
+  "bugs": {
+    "url": "https://github.com/danny-oko/back-end-stuffs/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danny-oko/back-end-stuffs.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon index.ts",
+    "dev": "nodemon src/index.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "module",
   "dependencies": {
     "express": "^5.2.1",
     "nodemon": "^3.1.14",
