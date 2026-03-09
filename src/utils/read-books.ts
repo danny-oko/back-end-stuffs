@@ -5,7 +5,7 @@ export const readBooks = async () => {
     const data = await fs.readFile("./db.json", { encoding: "utf-8" });
     const obj = JSON.parse(data);
 
-    return obj;
+    return data;
   } catch (error) {
     console.log(error);
   }

@@ -10,7 +10,7 @@ export const writeBooks = async (updateContext: NewBook) => {
     data.push(updateContext);
     // console.log(2, data);
 
-    const updatedData = await fs.writeFile("./db.json", JSON.stringify(data));
+    const updatedData = await fs.writeFile("./db.json", JSON.parse(data));
 
     return updatedData;
   } catch (error) {
